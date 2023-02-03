@@ -1,7 +1,7 @@
 import React from 'react'
 import './sidebar.css'
 
-import logo from '../../asset/Logo@200x.png'
+import logo from '../../asset/logo.png'
 
 import { BsLayoutTextWindowReverse } from "react-icons/bs";
 import { BsArrowLeftRight } from "react-icons/bs";
