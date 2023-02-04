@@ -1,7 +1,8 @@
 import React from 'react'
 import './sidebar.css'
 
-import logo from '../../asset/logo.png'
+
+import logo from '../../asset/logo-01.png'
 
 import { BsLayoutTextWindowReverse } from "react-icons/bs";
 import { BsArrowLeftRight } from "react-icons/bs";
@@ -14,35 +15,35 @@ function Sidebar() {
   return (
     <div className='sideBar grid'>
       <div className="logoDiv flex">
-        <img src={logo} alt="Image Name" />
-        <h2>Pro.</h2>
+        <img src={logo} alt="" />
+        <h2>Borrow and Return System.</h2>
       </div>
 
-      <div className="menuDev">
+      <div className="menuDiv">
         <h3 className='divTitle'>
           QUICK MENU
         </h3>
         <div className="menuLists grid">
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="/" className="menuLink flex">
               <BsLayoutTextWindowReverse className='icon' />
               <span className="smallText">Dash board</span>
             </a>
           </li>
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="/" className="menuLink flex">
               <BsArrowLeftRight className='icon' />
               <span className="smallText">Borrow and Return</span>
             </a>
           </li>
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="/" className="menuLink flex">
               <AiOutlineUser className='icon' />
               <span className="smallText">Employee</span>
             </a>
           </li>
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="/" className="menuLink flex">
               <MdDevices className='icon' />
               <span className="smallText">Device</span>
             </a>
@@ -56,19 +57,19 @@ function Sidebar() {
         </h3>
         <div className="menuLists grid">
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="/" className="menuLink flex">
               <FcComboChart className='icon' />
               <span className="smallText">Dash board</span>
             </a>
           </li>
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="/" className="menuLink flex">
               <BsArrowLeftRight className='icon' />
               <span className="smallText">Borrow and Return</span>
             </a>
           </li>
           <li className="listItem">
-            <a href="#" className="menuLink flex">
+            <a href="/" className="menuLink flex">
               <AiOutlineUser className='icon' />
               <span className="smallText">Employee</span>
             </a>
