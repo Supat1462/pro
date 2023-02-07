@@ -9,7 +9,7 @@
 }
 
 :root {
-    --primaryColor: hsl(94, 59%, 355);
+    --primaryColor: hsl(94, 59%, 35%);
     --HoverColor: #bdf094;
     --paleGreen: hsl(96, 75%, 89%);
     --whiteColor: hsl(0, 0%, 100%);
@@ -43,6 +43,7 @@ li {
 
 .icon {
     font-size: var(--h2FontSzie);
+    cursor: pointer;
 }
 
 img {
@@ -101,3 +102,8 @@ body {
     box-shadow: 2px 2px 8px var(--greyText);
 }
 
+/* hide the scroll thumb */
+
+::-webkit-scrollbar {
+    display: none;
+}
