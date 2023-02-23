@@ -9,8 +9,6 @@ import { BsArrowRightSquareFill } from "react-icons/bs";
 import img from '../../../asset/profile.jpg'
 import video from '../../../asset/WannaOne.mp4'
 
-import img1 from '../../../asset/img1.png'
-
 function Top() {
   return (
     <div className='topSection'>
@@ -74,7 +72,7 @@ function Top() {
             </div>
 
             <div className="imgDiv">
-              <img src={img1} alt="Image Name" />
+              <img src="https://images.unsplash.com/photo-1661956602116-aa6865609028?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1964&q=80" alt="Image Name" />
             </div>
           </div>
         </div>
