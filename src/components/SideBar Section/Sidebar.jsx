@@ -1,6 +1,6 @@
 import React from 'react'
 import './sidebar.css'
-
+import { Link } from 'react-router-dom';
 
 import logo from '../../asset/logo-01.png'
 
@@ -39,10 +39,12 @@ function Sidebar() {
             </a>
           </li>
           <li className="listItem">
-            <a href="/" className="menuLink flex">
-              <AiOutlineUser className='icon' />
-              <span className="smallText">พนักงาน</span>
-            </a>
+            <Link to='/Employee'>
+              <a href="/" className="menuLink flex">
+                <AiOutlineUser className='icon' />
+                <span className="smallText">พนักงาน</span>
+              </a>
+            </Link>
           </li>
           <li className="listItem">
             <a href="/" className="menuLink flex">
